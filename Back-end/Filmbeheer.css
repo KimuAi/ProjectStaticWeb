@@ -1,0 +1,81 @@
+/* Algemene stijlen voor het admin-gedeelte */
+
+/* Algemeen */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #82c4cc;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #82c4cc;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+/* Stijlen voor de loginpagina */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #82c4cc;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #67a7b6;
+}
+
+/* Stijlen voor het admin dashboard */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+a {
+    color: #82c4cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

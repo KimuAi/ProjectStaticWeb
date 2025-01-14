@@ -1,0 +1,143 @@
+/* Algemeen body en achtergrond */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Babyblauwe achtergrond */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Donkergrijze tekst voor leesbaarheid */
+}
+
+/* Header - Navigatie */
+header {
+    background-color: #add8e6; /* Babyblauw */
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6347; /* Oranje-rood wanneer je over de link zweeft */
+}
+
+/* Hoofdgedeelte (film details) */
+main {
+    padding: 20px;
+}
+
+.film-detail {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Film titel */
+.film-detail h1 {
+    color: #4682b4; /* Blauw voor de titel */
+    text-align: center;
+}
+
+/* Film afbeeldingen */
+.film-afbeelding {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Filminfo sectie */
+.film-info {
+    margin-top: 20px;
+}
+
+.film-info h2 {
+    color: #4682b4; /* Blauw voor de kopjes */
+}
+
+.film-info p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Reviews sectie */
+.reviews {
+    margin-top: 20px;
+    background-color: #f8f8ff; /* Zeer lichte babyblauwe achtergrond */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.reviews h2 {
+    color: #4682b4;
+}
+
+.reviews p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Gerelateerde films sectie */
+.related-films {
+    margin-top: 20px;
+}
+
+.related-films h2 {
+    color: #4682b4;
+}
+
+.films {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.film-card {
+    width: 200px;
+    text-align: center;
+    background-color: #f0f8ff; /* Babyblauwe achtergrond voor de kaarten */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.film-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.film-card h3 {
+    color: #4682b4; /* Blauw voor de titels van de gerelateerde films */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4682b4; /* Blauw */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
