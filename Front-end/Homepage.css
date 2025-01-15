@@ -5,12 +5,19 @@ body {
     padding: 0;
     background-color: #f0f8ff; /* Babyblauwe achtergrondkleur */
     color: #333;
+    padding-top: 80px; /* Extra ruimte bovenaan om te compenseren voor de vaste header */
 }
 
 /* Header en navigatie */
 header {
     background-color: #add8e6; /* Lichtere babyblauw voor de header */
     padding: 20px 0;
+    position: fixed; /* Zorgt ervoor dat de header vaststaat */
+    top: 0; /* Zet de header bovenaan de pagina */
+    left: 0; /* Zorgt ervoor dat de header van links begint */
+    width: 100%; /* Zorgt ervoor dat de header de volledige breedte van het scherm heeft */
+    z-index: 1000; /* Zorgt ervoor dat de header altijd boven de andere inhoud wordt weergegeven */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optionele schaduw om de header visueel te scheiden */
 }
 
 nav ul {
