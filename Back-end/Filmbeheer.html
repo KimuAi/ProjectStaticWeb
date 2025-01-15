@@ -1,59 +1,110 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard - Watch2Day</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Filmbeheer.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin - Filmbeheer</title>
+    <link rel="stylesheet" href="Filmbeheer.css" />
+  </head>
+  
+  <body>
     <header>
-        <h1>Admin Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="Filmbeheer.html">Film Toevoegen</a></li>
-                <li><a href="../Front-end/Filmdetail.html">Film Overzicht</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="../Front-end/Homepage.html">Home</a></li>
+          <li><a href="#">Filmbeheer</a></li>
+          <li><a href="#">Uitloggen</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Film Overzicht</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Film Titel</th>
-                        <th>Genre</th>
-                        <th>Acteurs</th>
-                        <th>Acties</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Film 1</td>
-                        <td>Actie, Drama</td>
-                        <td>John Doe, Jane Smith</td>
-                        <td>
-                            <a href="edit-film.html?id=1">Bewerken</a> | <a href="delete-film.html?id=1">Verwijderen</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Film 2</td>
-                        <td>Komisch</td>
-                        <td>Mark Johnson, Lucy Brown</td>
-                        <td>
-                            <a href="edit-film.html?id=2">Bewerken</a> | <a href="delete-film.html?id=2">Verwijderen</a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
+      <div class="container">
+        <h1>Filmbeheer</h1>
 
-    <footer>
-        <p>&copy; 2025 Watch2Day | Alle rechten voorbehouden</p>
-    </footer>
-</body>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Titel</th>
+              <th>Genre</th>
+              <th>Jaar</th>
+              <th>Acties</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Arcade of the Underworld</td>
+              <td>Actie, Avontuur</td>
+              <td>2024</td>
+              <td>
+                <a href="film_edit.html?id=1">Bewerken</a> |
+                <a href="film_delete.html?id=1"> Verwijderen</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>Street of Memories</td>
+              <td>Drama, Romantiek</td>
+              <td>2023</td>
+              <td>
+                <a href="film_edit.html?id=2">Bewerken</a> |
+                <a href="film_delete.html?id=2"> Verwijderen</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Echoes Beneath</td>
+              <td>Thriller, Mysterie</td>
+              <td>2025</td>
+              <td>
+                <a href="film_edit.html?id=3">Bewerken</a> |
+                <a href="film_delete.html?id=3"> Verwijderen</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>Together, Always</td>
+              <td>Romance, Drama</td>
+              <td>2024</td>
+              <td>
+                <a href="film_edit.html?id=4">Bewerken</a> |
+                <a href="film_delete.html?id=4"> Verwijderen</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>Rising Shadows</td>
+              <td>Horror, Mysterie</td>
+              <td>2023</td>
+              <td>
+                <a href="film_edit.html?id=5">Bewerken</a> |
+                <a href="film_delete.html?id=5"> Verwijderen</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>Whispers in the Mist</td>
+              <td>Mysterie</td>
+              <td>2025</td>
+              <td>
+                <a href="film_edit.html?id=6">Bewerken</a> |
+                <a href="film_delete.html?id=6"> Verwijderen</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button class="add-film-button">
+          <a href="film_add.html">Film Toevoegen</a>
+        </button>
+      </div>
+    </main>
+  </body>
 </html>
