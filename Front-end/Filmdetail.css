@@ -1,45 +1,46 @@
 /* Algemene body en achtergrond */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; /* Zachte blauwe achtergrond */
     margin: 0;
     padding: 0;
     color: #333;
     padding-top: 80px; /* Ruimte voor de vaste header */
+    box-sizing: border-box; /* Padding en border inbegrepen */
 }
 
 /* Header - Navigatie */
 header {
-    background-color: #add8e6;
+    background-color: #add8e6; /* Lichtblauw voor de header */
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position: fixed; /* Vaste positie */
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Boven andere elementen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
 }
 
 header nav ul {
-    list-style: none;
+    list-style: none; /* Geen lijststijl */
     padding: 0;
 }
 
 header nav ul li {
-    display: inline;
+    display: inline; /* Horizontale weergave */
     margin: 0 20px;
 }
 
 header nav ul li a {
-    text-decoration: none;
+    text-decoration: none; /* Geen onderstreping */
     color: white;
     font-size: 18px;
     font-weight: bold;
 }
 
 header nav ul li a:hover {
-    color: #ff6347;
+    color: #ff6347; /* Oranje bij hover */
 }
 
 /* Hoofdgedeelte */
@@ -49,15 +50,15 @@ main {
 
 /* Film detail sectie */
 .film-detail {
-    background-color: white;
+    background-color: white; /* Neutrale achtergrond */
     margin-bottom: 40px;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Zachte hoeken */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
 }
 
 .film-detail h1 {
-    color: #4682b4;
+    color: #4682b4; /* Donkerblauw voor titels */
     text-align: center;
 }
 
@@ -67,32 +68,32 @@ main {
     max-width: 400px;
     height: auto;
     display: block;
-    margin: 20px 20px 20px 0;
-    border-radius: 8px;
-    float: right;
-    object-fit: cover;
-    max-height: 300px;
+    margin: 20px 20px 20px 0; /* Ruimte aan de rechterkant */
+    border-radius: 8px; /* Zachte hoeken */
+    float: right; /* Rechts van de tekst */
+    object-fit: cover; /* Proporties behouden */
+    max-height: 300px; /* Max hoogte */
 }
 
 /* Film info sectie */
 .film-info {
     margin-top: 20px;
-    overflow: hidden;
+    overflow: hidden; /* Behandelt floats */
 }
 
 .film-info h2 {
-    color: #4682b4;
+    color: #4682b4; /* Accentkleur */
 }
 
 .film-info p {
-    line-height: 1.6;
+    line-height: 1.6; /* Leesbaarheid verhogen */
     font-size: 16px;
 }
 
 /* Reviews sectie */
 .reviews {
     margin-top: 20px;
-    background-color: #f8f8ff;
+    background-color: #f8f8ff; /* Subtiele achtergrond */
     padding: 15px;
     border-radius: 8px;
 }
@@ -103,7 +104,7 @@ main {
 
 .reviews p {
     font-size: 16px;
-    color: #555;
+    color: #555; /* Neutrale tekstkleur */
 }
 
 /* Gerelateerde films sectie */
@@ -115,24 +116,25 @@ main {
     color: #4682b4;
 }
 
+/* Filmkaartjes in gerelateerde sectie */
 .films {
-    display: flex;
+    display: flex; /* Flexbox voor uitlijning */
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-around; /* Evenredige ruimte */
 }
 
 .film-card {
     width: 200px;
     text-align: center;
-    background-color: #f0f8ff;
+    background-color: #f0f8ff; /* Lichte achtergrond */
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schaduw effect */
 }
 
 .film-card img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 8px; /* Consistente hoeken */
 }
 
 .film-card h3 {
@@ -143,10 +145,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: #4682b4;
+    background-color: #4682b4; /* Blauwe kleur */
     padding: 20px;
     text-align: center;
-    color: white;
+    color: white; /* Contrasterende tekstkleur */
 }
 
 footer p {

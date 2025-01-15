@@ -1,39 +1,75 @@
-/* Algemene backend stijlen */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Zorgt voor consistente opmaak */
 }
-
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Achtergrondkleur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Volledige schermhoogte */
+}
+  
 .login-container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
     background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
     border-radius: 10px;
-}
-
-h2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
     text-align: center;
-    color: #4A90E2;
 }
-
-input {
-    width: 100%;
+  
+h2 {
+    margin-bottom: 20px;
+    color: #7ec8f3;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+  
+input[type="text"],
+input[type="password"] {
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-button {
+    font-size: 16px;
     width: 100%;
+}
+  
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #7ec8f3; 
+    outline: none;
+}
+  
+button {
     padding: 10px;
-    background-color: #4A90E2;
+    background-color: #7ec8f3;
     color: white;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+button:hover {
+    background-color: #5bb5e4;
+}
+  
+button:active {
+    background-color: #4a9fcb;
 }

@@ -1,23 +1,23 @@
-/* Algemene opmaak */
+/* Algemene opmaak voor de hele pagina */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* Babyblauwe achtergrondkleur */
+    background-color: #f0f8ff;
     color: #333;
-    padding-top: 80px; /* Extra ruimte bovenaan om te compenseren voor de vaste header */
+    padding-top: 80px;
 }
 
-/* Header en navigatie */
+/* Header en navigatiebalk */
 header {
-    background-color: #add8e6; /* Lichtere babyblauw voor de header */
+    background-color: #add8e6;
     padding: 20px 0;
-    position: fixed; /* Zorgt ervoor dat de header vaststaat */
-    top: 0; /* Zet de header bovenaan de pagina */
-    left: 0; /* Zorgt ervoor dat de header van links begint */
-    width: 100%; /* Zorgt ervoor dat de header de volledige breedte van het scherm heeft */
-    z-index: 1000; /* Zorgt ervoor dat de header altijd boven de andere inhoud wordt weergegeven */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optionele schaduw om de header visueel te scheiden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -40,17 +40,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6347; /* Kleurtje voor hover (Tomaat-rood) */
+    color: #ff6347;
 }
 
-/* Hoofdpagina secties */
+/* Opmaak voor de hoofdinhoud */
 main {
     padding: 40px 20px;
 }
 
 .intro h1 {
     font-size: 2.5em;
-    color: #4682b4; /* Iets donkerder blauw */
+    color: #4682b4;
     text-align: center;
 }
 
@@ -60,7 +60,7 @@ main {
     text-align: center;
 }
 
-/* Filmgrid sectie */
+/* Opmaak voor het filmoverzicht */
 .film-grid h2 {
     font-size: 2em;
     color: #4682b4;
@@ -113,7 +113,7 @@ main {
     color: #ff6347;
 }
 
-/* Footer */
+/* Footer stijl */
 footer {
     background-color: #add8e6;
     text-align: center;

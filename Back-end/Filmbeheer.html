@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
     <title>Admin - Filmbeheer</title>
-    <link rel="stylesheet" href="Filmbeheer.css" />
+    <link rel="stylesheet" href="Filmbeheer.css" /> 
   </head>
   
   <body>
     <header>
       <nav>
+        <!-- Navigatiebalk met links naar andere pagina's -->
         <ul>
-          <li><a href="../Front-end/Homepage.html">Home</a></li>
-          <li><a href="#">Filmbeheer</a></li>
-          <li><a href="#">Uitloggen</a></li>
+          <li><a href="../Front-end/Homepage.html">Home</a></li> <!-- Link naar de homepage -->
+          <li><a href="#">Filmbeheer</a></li> <!-- Huidige pagina, geen link -->
+          <li><a href="Login.html">Uitloggen</a></li> 
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="container">
-        <h1>Filmbeheer</h1>
+        <!-- Hoofdsectie van de pagina -->
+        <h1>Filmbeheer</h1> <!-- Titel van de pagina -->
 
         <table>
+          <!-- Tabel met een lijst van films -->
           <thead>
             <tr>
+              <!-- Kolomkoppen voor de tabel -->
               <th>ID</th>
               <th>Titel</th>
               <th>Genre</th>
@@ -33,13 +37,15 @@
             </tr>
           </thead>
           <tbody>
+            <!-- De filmgegevens worden hier weergegeven in rijen -->
             <tr>
               <td>1</td>
               <td>Arcade of the Underworld</td>
               <td>Actie, Avontuur</td>
               <td>2024</td>
               <td>
-                <a href="film_edit.html?id=1">Bewerken</a> |
+                <!-- Acties voor deze film, zoals bewerken en verwijderen -->
+                <a href="film_edit.html?id=1">Bewerken</a> | 
                 <a href="film_delete.html?id=1"> Verwijderen</a>
               </td>
             </tr>
@@ -101,6 +107,7 @@
           </tbody>
         </table>
 
+        <!-- Button voor het toevoegen van een nieuwe film -->
         <button class="add-film-button">
           <a href="film_add.html">Film Toevoegen</a>
         </button>
