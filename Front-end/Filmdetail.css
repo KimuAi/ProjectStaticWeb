@@ -56,16 +56,21 @@ main {
 
 /* Film afbeeldingen */
 .film-afbeelding {
-    width: 100%;
-    max-width: 700px;
+    width: 30%; /* Maak de afbeelding kleiner (30% van de breedte) */
+    max-width: 400px; /* Maximaal 400px breed */
+    height: auto; /* Zorg ervoor dat de hoogte zich aanpast aan de breedte */
     display: block;
-    margin: 20px auto;
+    margin: 20px 20px 20px 0; /* Ruimte rondom de afbeelding */
     border-radius: 8px;
+    float: right; /* Plaats de afbeelding aan de rechterkant */
+    object-fit: cover; /* Zorg ervoor dat de afbeelding netjes binnen de container blijft */
+    max-height: 300px; /* Stel een maximale hoogte in om te voorkomen dat de afbeelding te groot wordt */
 }
 
-/* Filminfo sectie */
+/* Filminfo sectie met clearfix */
 .film-info {
     margin-top: 20px;
+    overflow: hidden; /* Zorgt ervoor dat de tekst zich niet achter de afbeelding bevindt */
 }
 
 .film-info h2 {
