@@ -1,7 +1,7 @@
 /* Algemene body en achtergrond */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff; /* Zachte blauwe achtergrond */
+    background-color: #f0f8ff; 
     margin: 0;
     padding: 0;
     color: #333;
@@ -11,7 +11,7 @@ body {
 
 /* Header - Navigatie */
 header {
-    background-color: #add8e6; /* Lichtblauw voor de header */
+    background-color: #add8e6; 
     padding: 20px;
     text-align: center;
     position: fixed; /* Vaste positie */
@@ -40,7 +40,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #ff6347; /* Oranje bij hover */
+    color: #ff6347; 
 }
 
 /* Hoofdgedeelte */
@@ -50,7 +50,7 @@ main {
 
 /* Container voor de formulier */
 .container {
-    background-color: white; /* Neutrale achtergrond */
+    background-color: white; 
     padding: 30px;
     margin-top: 100px; /* Ruimte na de header */
     border-radius: 8px; /* Zachte hoeken */
@@ -65,7 +65,7 @@ form label {
     display: block;
     margin-bottom: 8px;
     font-size: 16px;
-    color: #4682b4; /* Donkerblauw voor labels */
+    color: #4682b4; 
 }
 
 form input {
@@ -99,8 +99,7 @@ form input:focus {
 }
 
 .form-actions button:hover {
-    background-color: #ff6347; /* Oranje bij hover */
-}
+    background-color: #ff6347; 
 
 .form-actions .cancel-button {
     display: inline-block;
@@ -111,5 +110,5 @@ form input:focus {
 }
 
 .form-actions .cancel-button:hover {
-    color: #ff6347; /* Oranje bij hover */
+    color: #ff6347; 
 }

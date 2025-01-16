@@ -1,7 +1,7 @@
 /* Algemene body-stijlen */
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* Lichte babyblauwe achtergrond */
+    background-color: #e0f7fa; 
     margin: 0;
     padding: 0;
     text-align: center;
@@ -39,7 +39,8 @@ label {
     text-align: left;
 }
 
-/* Stijlen voor de invoervelden */
+/* Stijlen voor de invoervelden
+gebruikt om stijlen toe te passen op tekst */
 input[type="text"],
 input[type="email"],
 textarea {

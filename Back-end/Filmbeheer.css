@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e6f7ff; /* Lichtblauwe achtergrondkleur */
+  background-color: #e6f7ff; 
   color: #333;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #aee1f2; /* Lichter blauw voor header */
+  background-color: #aee1f2; 
   color: white;
   padding: 15px 20px;
   position: fixed; /* Vaste positie bovenaan */
@@ -36,7 +36,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #ffcc00; /* Geel bij hover */
+  color: #ffcc00; 
 }
 
 main {
@@ -53,7 +53,7 @@ main {
 }
 
 h1 {
-  color: #5f9ea0; /* Lichter blauwgroen voor kopteksten */
+  color: #5f9ea0; 
   text-align: center;
 }
 
@@ -71,13 +71,12 @@ td {
 }
 
 th {
-  background-color: #aee1f2; /* Lichter blauw voor tabelkop */
+  background-color: #aee1f2; 
   color: white;
 }
 
 tr:nth-child(even) {
-  background-color: #f9f9f9; /* Alternatieve rijkleuren voor leesbaarheid */
-}
+  background-color: #f9f9f9; 
 
 a {
   color: #1e90ff; /* Blauw voor links */
@@ -111,6 +110,7 @@ a:hover {
   background-color: #4682b4; /* Donkerblauw bij hover */
 }
 
+/*De lijn code past stijlen toe bij schermen smaller dan 768 pixels.*/
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: column; /* Stelt de navigatie verticaal in op kleinere schermen */
