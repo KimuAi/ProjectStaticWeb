@@ -1,27 +1,45 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    <!-- Definieert de tekencodering als UTF-8 voor juiste weergave van speciale tekens -->
     <meta charset="UTF-8">
+    
+    <!-- Zorgt ervoor dat de pagina responsief is en goed schaalt op verschillende apparaten -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Watch2Day</title>
+    
+    <!-- Titel van de webpagina, wordt weergegeven in de browser-tab -->
+    <title>Contact</title>
+    
+    <!-- Verbindt de pagina met een externe CSS-stylesheet voor styling -->
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
 
+  
     <h1>Contacteer ons</h1>
 
+    
     <p>Heb je vragen of opmerkingen? Vul het onderstaande formulier in en wij nemen zo snel mogelijk contact met je op.</p>
 
-    <form action="submit_form.php" method="POST">
+    <!-- Formulier voor contact -->
+    <form action="Homepage.html" method="POST">
+        
+        <!-- Label voor het naamveld -->
         <label for="name">Naam:</label><br>
+        <!-- Invoerveld voor naam, vereist een waarde -->
         <input type="text" id="name" name="name" required><br><br>
 
+        <!-- Label voor het e-mailadresveld -->
         <label for="email">E-mailadres:</label><br>
+        <!-- Invoerveld voor e-mailadres, vereist een waarde en moet een geldig e-mailadres zijn -->
         <input type="email" id="email" name="email" required><br><br>
 
+        <!-- Label voor het berichtveld -->
         <label for="message">Bericht:</label><br>
+        <!-- Tekstgebied voor bericht, vereist een waarde -->
         <textarea id="message" name="message" rows="4" required></textarea><br><br>
 
+        <!-- Verstuurknop voor het formulier -->
         <button type="submit">Verstuur</button>
     </form>
 

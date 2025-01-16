@@ -12,7 +12,7 @@ body {
 /* Stijl voor de header */
 h1 {
     text-align: center;
-    color: #007b8d; /* Babyblauwe kleur voor de hoofdtitel */
+    color: #4682b4;
     padding: 20px;
     margin-top: 20px;
 }
@@ -29,7 +29,7 @@ section {
 
 /* Stijl voor de subtitels in de secties */
 h2 {
-    color: #007b8d; /* Babyblauwe kleur voor de subtitels */
+    color: #4682b4;
     margin-bottom: 10px;
 }
 
@@ -46,12 +46,12 @@ ul {
 }
 
 ul li {
-    background-color: #e0f7fa; /* Lichte babyblauwe kleur voor lijstitems */
+    background-color: #e0f7fa; 
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
 }
 
 ul li strong {
-    color: #007b8d; /* Babyblauw voor de opsommingstekens */
+    color: #4682b4;
 }
