@@ -1,0 +1,74 @@
+/* Algemene body-stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Lichte babyblauwe achtergrond */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Stijlen voor de header */
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Stijl voor de paragraaf boven het formulier */
+p {
+    font-size: 1.1em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Formuliercontainer */
+form {
+    background-color: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Stijlen voor de labels */
+label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+/* Stijlen voor de invoervelden */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box; /* Zorgt ervoor dat padding niet de breedte vergroot */
+}
+
+/* Stijlen voor de textarea */
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Stijlen voor de verzendknop */
+button {
+    background-color: #0097a7; /* Babyblauwe kleur voor de knop */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007c8a; /* Donkerder blauw bij hover */
+}

@@ -1,0 +1,57 @@
+/* Algemene body-stijlen */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0faff; /* Zeer lichte babyblauwe achtergrond */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+/* Stijl voor de header */
+h1 {
+    text-align: center;
+    color: #007b8d; /* Babyblauwe kleur voor de hoofdtitel */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Stijlen voor de secties */
+section {
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de subtitels in de secties */
+h2 {
+    color: #007b8d; /* Babyblauwe kleur voor de subtitels */
+    margin-bottom: 10px;
+}
+
+/* Stijlen voor de paragrafen */
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Stijl voor de ongeordende lijst in de sectie "Waarom Watch2Day?" */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e0f7fa; /* Lichte babyblauwe kleur voor lijstitems */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li strong {
+    color: #007b8d; /* Babyblauw voor de opsommingstekens */
+}
