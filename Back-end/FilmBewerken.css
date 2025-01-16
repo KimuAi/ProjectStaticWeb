@@ -1,0 +1,115 @@
+/* Algemene body en achtergrond */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Zachte blauwe achtergrond */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    padding-top: 80px; /* Ruimte voor de vaste header */
+    box-sizing: border-box; /* Padding en border inbegrepen */
+}
+
+/* Header - Navigatie */
+header {
+    background-color: #add8e6; /* Lichtblauw voor de header */
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Vaste positie */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Boven andere elementen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
+}
+
+header nav ul {
+    list-style: none; /* Geen lijststijl */
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline; /* Horizontale weergave */
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    text-decoration: none; /* Geen onderstreping */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ff6347; /* Oranje bij hover */
+}
+
+/* Hoofdgedeelte */
+main {
+    padding: 20px;
+}
+
+/* Container voor de formulier */
+.container {
+    background-color: white; /* Neutrale achtergrond */
+    padding: 30px;
+    margin-top: 100px; /* Ruimte na de header */
+    border-radius: 8px; /* Zachte hoeken */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schaduw effect */
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Formulier labels en invoervelden */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #4682b4; /* Donkerblauw voor labels */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: #4682b4; /* Donkerblauw bij focus */
+    outline: none;
+}
+
+/* Acties sectie */
+.form-actions {
+    text-align: center;
+}
+
+.form-actions button {
+    padding: 10px 20px;
+    background-color: #4682b4; /* Donkerblauw voor de knop */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-actions button:hover {
+    background-color: #ff6347; /* Oranje bij hover */
+}
+
+.form-actions .cancel-button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4682b4;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.form-actions .cancel-button:hover {
+    color: #ff6347; /* Oranje bij hover */
+}
